@@ -3,4 +3,4 @@ const append = ["Milo", "Otis", "Garfield"];
 
 append.push('Odie')
 
-const prepend = [...append]
+const prepend = [...append.slice(4, 0, 'Odie')]
