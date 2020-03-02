@@ -4,4 +4,4 @@ const append = ["Milo", "Otis", "Garfield"];
 append.push('Odie');
 
 const prepend = [...append.slice(0, 4)];
-prepend.pop('Odie')
+prepend.pop('Odie').unshift('Odie')
