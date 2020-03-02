@@ -8,4 +8,4 @@ prepend.pop('Odie');
 
 prepend.unshift('Odie');
 
-const removeLast = [...prepend]
+const removeLast = [...prepend.]
