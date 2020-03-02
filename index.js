@@ -9,3 +9,5 @@ prepend.pop('Odie');
 prepend.unshift('Odie');
 
 const removeLast = [...prepend.splice(1, 2, 'Milo', 'Otis')]
+
+const removefirst =
