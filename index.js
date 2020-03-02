@@ -8,4 +8,4 @@ prepend.pop('Odie');
 
 prepend.unshift('Odie');
 
-const removeLast = [...prepend.splice(0,3)]
+const removeLast = [...prepend.splice(1,3)]
